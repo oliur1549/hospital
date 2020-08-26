@@ -1,0 +1,135 @@
+﻿
+
+<!DOCTYPE html>
+<html lang="en">
+<!-- Basic -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Site Metas -->
+    <title>Zamzam Hospital</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="~/user/images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="~/user/images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/user/css/bootstrap.min.css">
+    <!-- Pogo Slider CSS -->
+    <link rel="stylesheet" href="~/user/css/pogo-slider.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="~/user/css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="~/user/css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="~/user/css/custom.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.~/user/js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
+
+    <!-- LOADER -->
+    <!-- <div id="preloader">
+        <div class="loader">
+            <img src="~/user/images/preloader.gif" alt="" />
+        </div>
+    </div>end loader -->
+    <!-- END LOADER -->
+    <!-- Start top bar -->
+    <div class="main-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="left-top">
+                        <a class="new-btn-d br-2" asp-controller="Appointment" asp-action="Index"><span>Book Appointment</span></a>
+                        <div class="mail-b"><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> demo@gmail.com</a></div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="wel-nots">
+                        <p>Welcome to Zamzam Hospital</p>
+                    </div>
+                    <div class="right-top">
+                        <ul>
+                            <li><a href="https://facebook.com/oliurcsebitc"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            @*<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>*@
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End top bar -->
+    <!-- Start header -->
+    <header class="top-header">
+        <nav class="navbar header-nav navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="~/user/images/logo.png" alt="image"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
+                    <ul class="navbar-nav">
+                        <li><a class="nav-link active" asp-controller="Home" asp-action="Index">Home</a></li>
+                        <li><a class="nav-link" href="#about">About Us</a></li>
+                        <li><a class="nav-link" href="#services">Services</a></li>
+                        <li><a class="nav-link" href="#gallery">Gallery</a></li>
+                        <li><a class="nav-link" href="#team">Doctor</a></li>
+                        <li><a class="nav-link" href="#blog">Blog</a></li>
+                        <li><a class="nav-link" asp-controller="Contact" asp-action="Index">Contact</a></li>
+                        <li><a class="nav-link" style="background-color:lightseagreen" asp-controller="Appointment" asp-action="Index">Appointment</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End header -->
+    <!-- Start Services -->
+    <!-- End Services -->
+    <!-- Start Appointment -->
+    @RenderBody()
+    <!-- End Appointment -->
+    <!-- Start Footer -->
+    <!-- Footer Links -->
+    
+        @await Component.InvokeAsync("ContactInfo")
+   
+
+    <!-- End Footer -->
+
+    <a href="#" id="scroll-to-top" class="new-btn-d br-2"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="~/user/js/jquery.min.js"></script>
+    <script src="~/user/js/popper.min.js"></script>
+    <script src="~/user/js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="~/user/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/user/js/jquery.pogo-slider.min.js"></script>
+    <script src="~/user/js/slider-index.js"></script>
+    <script src="~/user/js/smoothscroll.js"></script>
+    <script src="~/user/js/TweenMax.min.js"></script>
+    <script src="~/user/js/main.js"></script>
+    <script src="~/user/js/owl.carousel.min.js"></script>
+    <script src="~/user/js/form-validator.min.js"></script>
+    <script src="~/user/js/contact-form-script.js"></script>
+    <script src="~/user/js/isotope.min.js"></script>
+    <script src="~/user/js/images-loded.min.js"></script>
+    <script src="~/user/js/custom.js"></script>
+</body>
+</html>

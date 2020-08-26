@@ -1,0 +1,12 @@
+E:\My Projects\HealthLab.Web\HealthLab.Framework\bin\Release\netcoreapp3.1\HealthLab.Framework.deps.json
+E:\My Projects\HealthLab.Web\HealthLab.Framework\bin\Release\netcoreapp3.1\HealthLab.Framework.dll
+E:\My Projects\HealthLab.Web\HealthLab.Framework\bin\Release\netcoreapp3.1\HealthLab.Framework.pdb
+E:\My Projects\HealthLab.Web\HealthLab.Framework\bin\Release\netcoreapp3.1\HealthLab.Data.dll
+E:\My Projects\HealthLab.Web\HealthLab.Framework\bin\Release\netcoreapp3.1\HealthLab.Data.pdb
+E:\My Projects\HealthLab.Web\HealthLab.Framework\obj\Release\netcoreapp3.1\HealthLab.Framework.csprojAssemblyReference.cache
+E:\My Projects\HealthLab.Web\HealthLab.Framework\obj\Release\netcoreapp3.1\HealthLab.Framework.AssemblyInfoInputs.cache
+E:\My Projects\HealthLab.Web\HealthLab.Framework\obj\Release\netcoreapp3.1\HealthLab.Framework.AssemblyInfo.cs
+E:\My Projects\HealthLab.Web\HealthLab.Framework\obj\Release\netcoreapp3.1\HealthLab.Framework.csproj.CoreCompileInputs.cache
+E:\My Projects\HealthLab.Web\HealthLab.Framework\obj\Release\netcoreapp3.1\HealthLab.Framework.csproj.CopyComplete
+E:\My Projects\HealthLab.Web\HealthLab.Framework\obj\Release\netcoreapp3.1\HealthLab.Framework.dll
+E:\My Projects\HealthLab.Web\HealthLab.Framework\obj\Release\netcoreapp3.1\HealthLab.Framework.pdb

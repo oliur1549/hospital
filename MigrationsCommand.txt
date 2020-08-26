@@ -1,0 +1,5 @@
+dotnet ef database update 0 --project HealthLab.Web --context DatabaseContext
+
+dotnet ef migrations add MigName --project HealthLab.Web --context DatabaseContext
+
+dotnet ef migrations remove --project HealthLab.Web --context DatabaseContext

@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-HealthLab.Web-CB0B3D02-5056-4274-9386-C45C64FE95B0</UserSecretsId>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="BCrypt.Net-Core" Version="1.6.0" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="3.1.5" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.3" />
+    <PackageReference Include="Serilog.Extensions.Hosting" Version="3.1.0" />
+    <PackageReference Include="Serilog.Sinks.RollingFile" Version="3.3.0" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Logs\" />
+    <Folder Include="wwwroot\admin\" />
+    <Folder Include="wwwroot\about\" />
+    <Folder Include="wwwroot\gallery\" />
+    <Folder Include="wwwroot\doctor\" />
+    <Folder Include="wwwroot\blog\" />
+    <Folder Include="wwwroot\largeLogo\" />
+    <Folder Include="wwwroot\footer\" />
+    <Folder Include="wwwroot\smallLogo\" />
+    <Folder Include="wwwroot\slideshow\" />
+    <Folder Include="wwwroot\user\images\slideshow\" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\HealthLab.Framework\HealthLab.Framework.csproj" />
+  </ItemGroup>
+
+</Project>

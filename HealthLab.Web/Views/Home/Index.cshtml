@@ -1,0 +1,59 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+@model Service
+<partial name="_slide" />
+<!-- Start About us -->
+<partial name="_about" />
+<!-- End About us -->
+<div id="services" class="services-box">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="title-box">
+                    <h2>Services</h2>
+                    <p>Our valuable service is given below. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="owl-carousel owl-theme">
+                    @foreach (var item in ViewBag.Services)
+                    {
+                        <div class="item">
+                            <div class="serviceBox">
+                                <div class="service-icon"><i class="fa fa-h-square" aria-hidden="true"></i></div>
+                                <h3 class="title">@item.ServiceName</h3>
+                                <p class="description">
+                                    @item.Description
+                                </p>
+                                <a href="#" class="new-btn-d br-2">Read More</a>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Start Appoinment -->
+<!-- Start Gallery -->
+<partial name="_gallery" />
+<!-- End Gallery -->
+<!-- Start Team -->
+<partial name="_doctor" />
+
+<!-- End Team -->
+<!-- Start Blog -->
+<partial name="_blog" />
+<!-- End Blog -->
+<!-- Start Contact -->
+<!-- Start footer -->
+@*<partial name="_footer" />*@
+
+<!-- End footer -->
+<!-- End Contact -->

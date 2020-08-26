@@ -1,0 +1,48 @@
+﻿<!-- Start Banner -->
+<div class="ulockd-home-slider">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="pogoSlider" id="js-main-slider">
+
+                @foreach (var item in ViewBag.SlideShow)
+                {
+
+                    <div class="pogoSlider-slide" data-transition="fade">
+                        <a href="#"><img style="width:100%" src="~/slideshow/@item.Name" /></a>
+                        <div class="lbox-caption pogoSlider-slide-element">
+                            <div class="lbox-details">
+                                @*<h4>@item.Title</h4>
+                                <p>@item.Description</p>
+                                <a href="#" class="btn">Contact Us</a>*@
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div><!-- .pogoSlider -->
+        </div>
+    </div>
+</div>
+
+@*<div id="carouselBlk">
+        <div id="myCarousel" class="carousel slide">
+            <div class="carousel-inner">
+                @{ var index = 1;}
+                @foreach (var slideShow in ViewBag.SlideShow)
+                {
+                    <div class="item @(index==1 ? "active" : "")">
+                        <div class="container">
+                            <a href="#"><img style="width:100%" src="~/slideshow/@slideShow.Name" alt="special offers" /></a>
+                            <div class="carousel-caption">
+                                <h4>@slideShow.Title</h4>
+                                <p>@slideShow.Description</p>
+                            </div>
+                        </div>
+                    </div>
+                    index++;
+                }
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+        </div>
+    </div>*@
+<!-- End Banner -->

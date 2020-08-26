@@ -1,0 +1,94 @@
+﻿@model CreateSettingModel
+@{
+    ViewData["Title"] = "AddAbout";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1>General Form</h1>
+                </div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">General Form</li>
+                    </ol>
+                </div>
+            </div>
+        </div><!-- /.container-fluid -->
+    </section>
+
+    <!-- Main content -->
+    
+        <div class="container-fluid">
+            <div class="row" >
+                <!-- left column -->
+                <div class="col-md-6">
+                    <!-- general form elements -->
+                    <div class="card card-primary" style="width:1000px">
+                        <div class="card-header">
+                            <h3 class="card-title">Create Setting</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <!-- form start -->
+                        <div class="card-body" >
+                            <partial name="_ActionMessage" model="@Model.Response" />
+                            <form asp-area="Admin" asp-controller="Setting" asp-action="AddSetting" method="post" enctype="multipart/form-data" >
+                                <div class="card-body">
+
+                                    <div class="form-group">
+                                        <label for="BrowserTitle">Browser Title</label>
+                                        <input type="text" class="form-control" asp-for="BrowserTitle" placeholder="Enter Browser Title" style="width:500px">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="HeaderTitle">Header Title</label>
+                                        <input type="text" class="form-control" asp-for="HeaderTitle" placeholder="Enter Browser Title" style="width:500px">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="SmallLogo">Photo</label>
+                                        <input type="file" class="form-control" asp-for="smallImageFile" accept="image/*" style="width:300px">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="LargeLogo">Large Logo</label>
+                                        <input type="file" class="form-control" asp-for="largeImageFile" accept="image/*" style="width:300px">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="Email">Email</label>
+                                        <input type="email" class="form-control" asp-for="Email" placeholder="Enter Email" style="width:500px">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="Facebook">Facebook Url</label>
+                                        <input type="url" class="form-control" asp-for="FbUrl" placeholder="Enter Facebook Url" style="width:500px">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="Copyright">Copyright</label>
+                                        <input type="text" class="form-control" asp-for="Copyright" placeholder="Enter Copyright" style="width:800px">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="TermsCondition">TermsCondition</label>
+                                        <input type="text" class="form-control" asp-for="TermsCondition" placeholder="Enter TermsCondition" style="width:800px">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="Policy">Policy</label>
+                                        <input type="text" class="form-control" asp-for="Policy" placeholder="Enter Policy" style="width:800px">
+                                    </div>
+
+                                </div>
+                                <!-- /.card-body -->
+
+                                <div class="card-footer">
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+</div>

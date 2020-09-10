@@ -6,4 +6,7 @@ E:\My Projects\HealthLab.Web\Membership\obj\Debug\netcoreapp3.1\Membership.Assem
 E:\My Projects\HealthLab.Web\Membership\obj\Debug\netcoreapp3.1\Membership.dll
 E:\My Projects\HealthLab.Web\Membership\obj\Debug\netcoreapp3.1\Membership.pdb
 E:\My Projects\HealthLab.Web\Membership\bin\Debug\netcoreapp3.1\Membership.pdb
+E:\My Projects\HealthLab.Web\Membership\bin\Debug\netcoreapp3.1\HealthLab.Data.dll
+E:\My Projects\HealthLab.Web\Membership\bin\Debug\netcoreapp3.1\HealthLab.Data.pdb
+E:\My Projects\HealthLab.Web\Membership\obj\Debug\netcoreapp3.1\Membership.csproj.CopyComplete
 E:\My Projects\HealthLab.Web\Membership\obj\Debug\netcoreapp3.1\Membership.csproj.CoreCompileInputs.cache

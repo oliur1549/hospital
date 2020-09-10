@@ -1,12 +1,14 @@
 ﻿using Autofac;
 using HealthLab.Web.Areas.Admin.Models;
 using HealthLab.Web.Areas.Admin.Models.Contacts;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 
 namespace HealthLab.Web.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "SuperAdmin")]
     public class ContactsController : Controller
     {
         private readonly IConfiguration _configuration;

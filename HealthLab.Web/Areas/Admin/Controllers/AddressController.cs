@@ -9,12 +9,14 @@ using HealthLab.Web.Areas.Admin.Models.AboutModel;
 using HealthLab.Web.Areas.Admin.Models.AddressModel;
 using HealthLab.Web.Areas.Admin.Models.BlogModel;
 using HealthLab.Web.Areas.Admin.Models.ResponseMessage;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 
 namespace HealthLab.Web.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "SuperAdmin")]
     public class AddressController : Controller
     {
         private readonly IConfiguration _configuration;

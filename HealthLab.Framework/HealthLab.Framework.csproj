@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\HealthLab.Data\HealthLab.Data.csproj" />
+    <ProjectReference Include="..\Membership\Membership.csproj" />
   </ItemGroup>
 
 </Project>

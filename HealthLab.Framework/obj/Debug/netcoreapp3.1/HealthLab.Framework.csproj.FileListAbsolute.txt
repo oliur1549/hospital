@@ -10,3 +10,5 @@ E:\My Projects\HealthLab.Web\HealthLab.Framework\bin\Debug\netcoreapp3.1\HealthL
 E:\My Projects\HealthLab.Web\HealthLab.Framework\bin\Debug\netcoreapp3.1\HealthLab.Data.pdb
 E:\My Projects\HealthLab.Web\HealthLab.Framework\obj\Debug\netcoreapp3.1\HealthLab.Framework.csproj.CoreCompileInputs.cache
 E:\My Projects\HealthLab.Web\HealthLab.Framework\obj\Debug\netcoreapp3.1\HealthLab.Framework.csproj.CopyComplete
+E:\My Projects\HealthLab.Web\HealthLab.Framework\bin\Debug\netcoreapp3.1\Membership.dll
+E:\My Projects\HealthLab.Web\HealthLab.Framework\bin\Debug\netcoreapp3.1\Membership.pdb

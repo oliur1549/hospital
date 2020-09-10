@@ -12,6 +12,8 @@ using HealthLab.Framework.ServiceLab;
 using HealthLab.Framework.SettingLab;
 using HealthLab.Framework.SlideShowLab;
 using HealthLab.Framework.TimeLab;
+using Membership.Data;
+using Membership.Services;
 
 namespace HealthLab.Framework
 {
@@ -109,6 +111,15 @@ namespace HealthLab.Framework
                 .InstancePerLifetimeScope();
 
             builder.RegisterType<ContactService>().As<IContactService>()
+                .InstancePerLifetimeScope();
+
+            builder.RegisterType<AccountSeed>()
+               .InstancePerLifetimeScope();
+
+            builder.RegisterType<CurrentUserService>().As<ICurrentUserService>()
+                .InstancePerLifetimeScope();
+
+            builder.RegisterType<UserService>().As<IUserService>()
                 .InstancePerLifetimeScope();
 
             base.Load(builder);

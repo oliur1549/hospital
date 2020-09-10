@@ -231,3 +231,10 @@ E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Debug\netcoreapp3.1\HealthLab.Web
 E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_LoginPartial.cshtml.g.cs
 E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+E:\My Projects\HealthLab.Web\HealthLab.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authorization.dll
+E:\My Projects\HealthLab.Web\HealthLab.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Metadata.dll
+E:\My Projects\HealthLab.Web\HealthLab.Web\bin\Debug\netcoreapp3.1\Membership.dll
+E:\My Projects\HealthLab.Web\HealthLab.Web\bin\Debug\netcoreapp3.1\Membership.pdb
+E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Identities\Views\Accounts\Login.cshtml.g.cs
+E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Identities\_ViewImports.cshtml.g.cs
+E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Identities\_ViewStart.cshtml.g.cs

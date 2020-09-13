@@ -226,7 +226,6 @@ E:\My Projects\HealthLab.Web\HealthLab.Web\bin\Debug\netcoreapp3.1\Microsoft.Asp
 E:\My Projects\HealthLab.Web\HealthLab.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
 E:\My Projects\HealthLab.Web\HealthLab.Web\bin\Debug\netcoreapp3.1\BCrypt.Net-Core.dll
 E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Debug\netcoreapp3.1\HealthLab.Web.csproj.CoreCompileInputs.cache
-E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Debug\netcoreapp3.1\HealthLab.Web.MvcApplicationPartsAssemblyInfo.cs
 E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Debug\netcoreapp3.1\HealthLab.Web.MvcApplicationPartsAssemblyInfo.cache
 E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_LoginPartial.cshtml.g.cs
 E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
@@ -238,3 +237,5 @@ E:\My Projects\HealthLab.Web\HealthLab.Web\bin\Debug\netcoreapp3.1\Membership.pd
 E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Identities\Views\Accounts\Login.cshtml.g.cs
 E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Identities\_ViewImports.cshtml.g.cs
 E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Identities\_ViewStart.cshtml.g.cs
+E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Appointment\Index.cshtml.g.cs
+E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Debug\netcoreapp3.1\HealthLab.Web.MvcApplicationPartsAssemblyInfo.cs

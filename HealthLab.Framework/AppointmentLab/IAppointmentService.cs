@@ -13,5 +13,7 @@ namespace HealthLab.Framework.AppointmentLab
         IList<Department> GetDepartment();
         IList<Doctor> GetDocotor();
         IList<PreferredTime> GetTime();
+        (IList<Appointment> records, int total, int totalDisplay) GetAppointment(int pageIndex, int pageSize, string searchText, string sortText);
+        Appointment DeleteAppointment(Guid id);
     }
 }

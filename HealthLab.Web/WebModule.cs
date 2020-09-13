@@ -2,6 +2,7 @@
 using HealthLab.Web.Areas.Admin.Models;
 using HealthLab.Web.Areas.Admin.Models.AboutModel;
 using HealthLab.Web.Areas.Admin.Models.AddressModel;
+using HealthLab.Web.Areas.Admin.Models.AppointmentModel;
 using HealthLab.Web.Areas.Admin.Models.BlogModel;
 using HealthLab.Web.Areas.Admin.Models.Contacts;
 using HealthLab.Web.Areas.Admin.Models.DoctorModel;
@@ -34,6 +35,7 @@ namespace HealthLab.Web
             builder.RegisterType<BlogModel>();
             builder.RegisterType<SettingModel>();
             builder.RegisterType<ContactsModel>();
+            builder.RegisterType<AppointmentModel>();
             base.Load(builder);
         }
     }

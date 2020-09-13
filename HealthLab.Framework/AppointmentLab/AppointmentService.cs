@@ -21,6 +21,21 @@ namespace HealthLab.Framework.AppointmentLab
             _appointmentUnitOfWork.Save();
         }
 
+        public Appointment DeleteAppointment(Guid id)
+        {
+            var Prop = _appointmentUnitOfWork.AppointmentRepository.GetById(id);
+            _appointmentUnitOfWork.AppointmentRepository.Remove(Prop);
+            _appointmentUnitOfWork.Save();
+            return Prop;
+        }
+
+
+        public (IList<Appointment> records, int total, int totalDisplay) GetAppointment(int pageIndex, int pageSize, string searchText, string sortText)
+        {
+            var result = _appointmentUnitOfWork.AppointmentRepository.GetAll();
+            return (result, 0, 0);
+        }
+
         public IList<Department> GetDepartment()
         {
             return _appointmentUnitOfWork.DepartmentRepository.GetAll();

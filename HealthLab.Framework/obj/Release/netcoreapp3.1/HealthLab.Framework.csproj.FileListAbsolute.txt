@@ -10,3 +10,5 @@ E:\My Projects\HealthLab.Web\HealthLab.Framework\obj\Release\netcoreapp3.1\Healt
 E:\My Projects\HealthLab.Web\HealthLab.Framework\obj\Release\netcoreapp3.1\HealthLab.Framework.csproj.CopyComplete
 E:\My Projects\HealthLab.Web\HealthLab.Framework\obj\Release\netcoreapp3.1\HealthLab.Framework.dll
 E:\My Projects\HealthLab.Web\HealthLab.Framework\obj\Release\netcoreapp3.1\HealthLab.Framework.pdb
+E:\My Projects\HealthLab.Web\HealthLab.Framework\bin\Release\netcoreapp3.1\Membership.dll
+E:\My Projects\HealthLab.Web\HealthLab.Framework\bin\Release\netcoreapp3.1\Membership.pdb

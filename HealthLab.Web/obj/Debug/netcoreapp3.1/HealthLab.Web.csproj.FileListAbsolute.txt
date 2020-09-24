@@ -239,3 +239,4 @@ E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Debug\netcoreapp3.1\Razor\Areas\I
 E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Identities\_ViewStart.cshtml.g.cs
 E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Appointment\Index.cshtml.g.cs
 E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Debug\netcoreapp3.1\HealthLab.Web.MvcApplicationPartsAssemblyInfo.cs
+E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Time\CreateTime.cshtml.g.cs

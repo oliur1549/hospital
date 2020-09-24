@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using HealthLab.Web.Areas.Admin.Models.TimeModel;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -20,7 +21,16 @@ namespace HealthLab.Web.Areas.Admin.Controllers
         }
         public IActionResult Index()
         {
-            return View();
+            var model = new CreateTimeModel();
+            model.Create();
+            return View(model);
+        }
+        [HttpPost]
+        public IActionResult CreateTime()
+        {
+            var model = new CreateTimeModel();
+            model.Create();
+            return View(model);
         }
     }
 }

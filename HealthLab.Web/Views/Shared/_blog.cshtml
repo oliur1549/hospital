@@ -14,12 +14,12 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="blog-inner">
                         <div class="blog-img">
-                            <img class="img-fluid" src="~/blog/@blog.Image" alt="" />
+                            <img class="img-fluid" src="~/blog/@blog.Image" width="900" height="600"  alt="" />
                         </div>
                         <div class="item-meta">
                             @*<a href="#"><i class="fa fa-comments-o"></i> 5 Comment </a>
                             <a href="#"><i class="fa fa-user-o"></i> Admin</a>*@
-                            <span class="dti">@blog.Datetime</span>
+                            <span class="dti">@blog.Datetime.ToShortDateString()</span>
                         </div>
                         <h2>@blog.Title</h2>
                         <p>@blog.Description </p>

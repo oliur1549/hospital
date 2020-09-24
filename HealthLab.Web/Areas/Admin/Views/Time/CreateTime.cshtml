@@ -1,9 +1,9 @@
-﻿@model CreateAddressModel
+﻿
 @{
-    ViewData["Title"] = "Address";
+    ViewData["Title"] = "Time";
     Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
 }
-
+@model CreateTimeModel
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">
@@ -37,31 +37,13 @@
                         <!-- form start -->
                         <div class="card-body">
                             <partial name="_ActionMessage" model="@Model.Response" />
-                            <form asp-area="Admin" asp-controller="Address" asp-action="AddAddress" method="post" enctype="multipart/form-data">
+                            <form asp-area="Admin" asp-controller="Time" asp-action="Index" method="post">
                                 <div class="card-body">
 
-
                                     <div class="form-group">
-                                        <label for="Address">Title</label>
-                                        <input type="text" class="form-control" asp-for="Address" placeholder="Enter Title">
+                                        <label for="AppointmentTime">Name</label>
+                                        <input type="text" class="form-control" asp-for="AppointmentTime" placeholder="Enter from Time to Time">
                                     </div>
-                                    <div class="form-group">
-                                        <label for="Email">Email</label>
-                                        <input type="text" class="form-control" asp-for="Email" placeholder="Enter Email">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="Phone">Phone</label>
-                                        <input type="text" class="form-control" asp-for="Phone" placeholder="Enter Phone">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="Description">Description</label>
-                                        <input type="text" class="form-control" asp-for="Description" placeholder="Enter Description">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="Hotline">Hotline</label>
-                                        <input type="text" class="form-control" asp-for="Hotline" placeholder="Enter Hotline">
-                                    </div>
-                                    
 
                                 </div>
                                 <!-- /.card-body -->
@@ -78,4 +60,3 @@
         </div>
     </section>
 </div>
-

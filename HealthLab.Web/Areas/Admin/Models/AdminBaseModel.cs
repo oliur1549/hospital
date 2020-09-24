@@ -160,6 +160,16 @@ namespace HealthLab.Web.Areas.Admin.Models
                                 new MenuChildItem{ Title = "View Appointment", Url = "/Admin/Appointment" }
                             }
                         }
+                    },
+                    {
+                        new MenuItems
+                        {
+                            Title = "Time",
+                            menuChildItems = new List<MenuChildItem>
+                            {
+                                new MenuChildItem{ Title = "Add Time", Url = "/Admin/Time/CreateTime" }
+                            }
+                        }
                     }
 
                 }

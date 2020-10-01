@@ -5,10 +5,12 @@ using HealthLab.Web.Areas.Admin.Models.AddressModel;
 using HealthLab.Web.Areas.Admin.Models.AppointmentModel;
 using HealthLab.Web.Areas.Admin.Models.BlogModel;
 using HealthLab.Web.Areas.Admin.Models.Contacts;
+using HealthLab.Web.Areas.Admin.Models.DepartmentModel;
 using HealthLab.Web.Areas.Admin.Models.DoctorModel;
 using HealthLab.Web.Areas.Admin.Models.GalleryModel;
 using HealthLab.Web.Areas.Admin.Models.SettingModel;
 using HealthLab.Web.Areas.Admin.Models.SlideModel;
+using HealthLab.Web.Areas.Admin.Models.TimeModel;
 
 namespace HealthLab.Web
 {
@@ -36,6 +38,8 @@ namespace HealthLab.Web
             builder.RegisterType<SettingModel>();
             builder.RegisterType<ContactsModel>();
             builder.RegisterType<AppointmentModel>();
+            builder.RegisterType<TimeModel>();
+            builder.RegisterType<DepartmentModel>();
             base.Load(builder);
         }
     }

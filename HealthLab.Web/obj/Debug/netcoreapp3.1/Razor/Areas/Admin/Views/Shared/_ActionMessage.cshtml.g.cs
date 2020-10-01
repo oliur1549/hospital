@@ -103,8 +103,15 @@ using HealthLab.Web.Areas.Admin.Models.TimeModel;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 14 "E:\My Projects\HealthLab.Web\HealthLab.Web\Areas\Admin\Views\_ViewImports.cshtml"
+using HealthLab.Web.Areas.Admin.Models.DepartmentModel;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9849bc0317e977a23c14b23de5a5281dbfd66785", @"/Areas/Admin/Views/Shared/_ActionMessage.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4fe7506566ed312a7000d1f14ea8a67bd33a5310", @"/Areas/Admin/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d328806796a021b2cd89282e66151d7a5acf6a34", @"/Areas/Admin/Views/_ViewImports.cshtml")]
     public class Areas_Admin_Views_Shared__ActionMessage : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<ResponseModel>
     {
         #pragma warning disable 1998

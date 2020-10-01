@@ -122,6 +122,12 @@ namespace HealthLab.Framework
             builder.RegisterType<UserService>().As<IUserService>()
                 .InstancePerLifetimeScope();
 
+            builder.RegisterType<TimeRepository>().As<ITimeRepository>()
+                .InstancePerLifetimeScope();
+
+            builder.RegisterType<TimeService>().As<ITimeService>()
+                .InstancePerLifetimeScope();
+
             base.Load(builder);
         }
     }

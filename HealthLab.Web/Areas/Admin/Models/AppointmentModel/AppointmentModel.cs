@@ -30,7 +30,7 @@ namespace HealthLab.Web.Areas.Admin.Models.AppointmentModel
                                 record.Phone,
                                 record.Department.Name,
                                 record.Doctor.Name,
-                                record.PreferredDate.ToString("MM/dd/yyyy"),
+                                record.PreferredDate.ToString("dd/MM/yyyy"),
                                 record.PreferredTime.AppointmentTime,
                                 record.Id.ToString()
                         }

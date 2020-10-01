@@ -239,3 +239,8 @@ E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Release\netcoreapp3.1\Razor\Areas
 E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Release\netcoreapp3.1\Razor\Areas\Identities\Views\Accounts\Login.cshtml.g.cs
 E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Release\netcoreapp3.1\Razor\Areas\Identities\_ViewImports.cshtml.g.cs
 E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Release\netcoreapp3.1\Razor\Areas\Identities\_ViewStart.cshtml.g.cs
+E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\Department\Edit.cshtml.g.cs
+E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\Department\Index.cshtml.g.cs
+E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\Time\CreateTime.cshtml.g.cs
+E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\Time\edit.cshtml.g.cs
+E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\Time\Index.cshtml.g.cs

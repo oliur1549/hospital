@@ -33,6 +33,9 @@ namespace HealthLab.Framework.TimeLab
 
         public void EditTime(PreferredTime edit)
         {
+            //var count = _appointmentUnitOfWork.TimeRepository.GetCount(x => x.AppointmentTime== edit.AppointmentTime && x.Id == edit.Id);
+            //if (count > 0)
+            //    throw new DuplicationException("Time already exists", nameof(edit.AppointmentTime));
             var aboutProp = _appointmentUnitOfWork.TimeRepository.GetById(edit.Id);
             aboutProp.Id = edit.Id;
             aboutProp.AppointmentTime = edit.AppointmentTime;

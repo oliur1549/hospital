@@ -240,3 +240,7 @@ E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Debug\netcoreapp3.1\Razor\Areas\I
 E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Appointment\Index.cshtml.g.cs
 E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Debug\netcoreapp3.1\HealthLab.Web.MvcApplicationPartsAssemblyInfo.cs
 E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Time\CreateTime.cshtml.g.cs
+E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Time\Index.cshtml.g.cs
+E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Time\edit.cshtml.g.cs
+E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Department\Edit.cshtml.g.cs
+E:\My Projects\HealthLab.Web\HealthLab.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Department\Index.cshtml.g.cs

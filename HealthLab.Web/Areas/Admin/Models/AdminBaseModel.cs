@@ -167,7 +167,19 @@ namespace HealthLab.Web.Areas.Admin.Models
                             Title = "Time",
                             menuChildItems = new List<MenuChildItem>
                             {
+                                new MenuChildItem{ Title = "View", Url = "/Admin/Time/Index" },
                                 new MenuChildItem{ Title = "Add Time", Url = "/Admin/Time/CreateTime" }
+                            }
+                        }
+                    },
+                    {
+                        new MenuItems
+                        {
+                            Title = "Department",
+                            menuChildItems = new List<MenuChildItem>
+                            {
+                                new MenuChildItem{ Title = "View", Url = "/Admin/Department/Index" },
+                                new MenuChildItem{ Title = "Add Dept", Url = "/Admin/Department/CreateDept" }
                             }
                         }
                     }

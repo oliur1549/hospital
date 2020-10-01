@@ -34,6 +34,9 @@ namespace HealthLab.Framework.AboutLab
 
         public void EditBlog(Blog eab)
         {
+            var count = _appointmentUnitOfWork.BlogRepository.GetCount(x => x.Title == eab.Title && x.Id==eab.Id);
+            if (count > 0)
+                throw new DuplicationException("Title already exists", nameof(eab.Title));
             var aboutProp = _appointmentUnitOfWork.BlogRepository.GetById(eab.Id);
             aboutProp.Id = eab.Id;
             aboutProp.Title = eab.Title;

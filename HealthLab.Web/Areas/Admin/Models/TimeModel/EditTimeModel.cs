@@ -1,14 +1,5 @@
-﻿using Autofac;
-using HealthLab.Framework.AboutLab;
-using HealthLab.Framework.TimeLab;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
-using System;
-using System.Collections.Generic;
+﻿using HealthLab.Framework.TimeLab;
 using System.ComponentModel.DataAnnotations;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace HealthLab.Web.Areas.Admin.Models.TimeModel
 {
@@ -29,6 +20,7 @@ namespace HealthLab.Web.Areas.Admin.Models.TimeModel
 
             var d = new PreferredTime
             {
+                Id=this.Id,
                 AppointmentTime = this.AppointmentTime
             };
 
